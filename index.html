@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kigen | Portfolio</title>
+    <meta
+        name="description"
+        content="Kigen's portfolio website featuring projects, education, experience, and personal highlights."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@500;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <header class="site-header">
+        <a class="brand" href="#home">Kigen</a>
+        <nav class="site-nav">
+            <a href="#about">About</a>
+            <a href="#journey">Journey</a>
+            <a href="#projects">Projects</a>
+            <a href="#photos">Photos</a>
+            <a href="#contact">Focus</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-copy reveal">
+                <p class="eyebrow">Frontend Developer / Backend Developer / Data Science Learner</p>
+                <h1>I build websites, backend systems, and practical digital solutions.</h1>
+                <p class="hero-text">
+                    I am a BSc Computer Science student at the Catholic University of Eastern Africa, growing through
+                    hands-on work in frontend development, backend development, data science, and problem solving.
+                </p>
+
+                <div class="hero-roles">
+                    <span class="hero-roles-label">Currently growing as:</span>
+                    <span class="hero-role" id="hero-role">Frontend &amp; Backend Developer</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">See My Work</a>
+                    <a class="button button-secondary" href="#photos">View Photos</a>
+                </div>
+
+                <div class="hero-stats">
+                    <article>
+                        <span class="stat-value">2019 - 2022</span>
+                        <span class="stat-label">High School</span>
+                    </article>
+                    <article>
+                        <span class="stat-value">2023 - Present</span>
+                        <span class="stat-label">BSc Computer Science</span>
+                    </article>
+                    <article>
+                        <span class="stat-value">Feb 2026</span>
+                        <span class="stat-label">Started ALX Data Science</span>
+                    </article>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="photo-card photo-card-large">
+                    <img
+                        src="assets/official-portrait.jpg"
+                        alt="Kigen official portrait"
+                        class="photo-image"
+                    >
+                    <div class="photo-placeholder">
+                        <span class="photo-tag">Official Portrait</span>
+                        <h2>Professional headshot</h2>
+                        <p>This space is reserved for my main professional photo.</p>
+                    </div>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-label">Quick Intro</span>
+                    <p>
+                        I enjoy building clean interfaces, handling backend logic, and learning how data can be used
+                        to solve real problems.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="section-heading reveal">
+                <p class="eyebrow">About Me</p>
+                <h2>The path I am building in software and technology.</h2>
+            </div>
+
+            <div class="about-grid">
+                <article class="about-story reveal">
+                    <p>
+                        My name is <strong>Kigen</strong>. I started out building websites through practice, then kept
+                        pushing deeper into structured software work on both the frontend and backend.
+                    </p>
+                    <p>
+                        Right now I am studying <strong>BSc Computer Science</strong> at the
+                        <strong>Catholic University of Eastern Africa</strong>, while also growing through
+                        <strong>ALX Data Science</strong> and Cisco cybersecurity training.
+                    </p>
+                    <p>
+                        I want my work to reflect growth, discipline, creativity, and the ability to turn ideas into
+                        working solutions.
+                    </p>
+                </article>
+
+                <div class="comments-panel reveal">
+                    <div class="panel-heading">
+                        <span class="note-label">A Few Things About Me</span>
+                        <p>What matters to me as I keep growing in tech.</p>
+                    </div>
+                    <div class="comment-list" id="comment-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="journey section" id="journey">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Education &amp; Growth</p>
+                <h2>My learning journey from high school to university and technical training.</h2>
+            </div>
+            <div class="timeline" id="timeline"></div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Featured Projects</p>
+                <h2>Projects that have shaped my experience so far.</h2>
+            </div>
+            <div class="project-grid" id="project-grid"></div>
+        </section>
+
+        <section class="photos section" id="photos">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Photos</p>
+                <h2>Moments and images that represent my journey.</h2>
+            </div>
+
+            <div class="photo-grid">
+                <article class="photo-card reveal">
+                    <img
+                        src="assets/campus-photo.jpg"
+                        alt="Kigen campus photo"
+                        class="photo-image"
+                    >
+                    <div class="photo-placeholder">
+                        <span class="photo-tag">Campus Photo</span>
+                        <h3>University life</h3>
+                        <p>A photo from campus, class activities, or another part of my student journey.</p>
+                    </div>
+                </article>
+
+                <article class="photo-card reveal">
+                    <img
+                        src="assets/workspace-photo.jpg"
+                        alt="Kigen workspace photo"
+                        class="photo-image"
+                    >
+                    <div class="photo-placeholder">
+                        <span class="photo-tag">Workspace Photo</span>
+                        <h3>Workspace</h3>
+                        <p>A coding setup, project session, or any moment where I am doing the work.</p>
+                    </div>
+                </article>
+
+                <article class="photo-card reveal">
+                    <img
+                        src="assets/formal-photo.jpg"
+                        alt="Kigen formal photo"
+                        class="photo-image"
+                    >
+                    <div class="photo-placeholder">
+                        <span class="photo-tag">Formal Photo</span>
+                        <h3>Professional look</h3>
+                        <p>A formal image that reflects how I want to present myself professionally.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact-card reveal">
+                <p class="eyebrow">Current Focus</p>
+                <h2>I am building a strong foundation in software, data, and practical problem solving.</h2>
+                <p>
+                    My goal is to keep growing through classwork, projects, and continuous practice in frontend
+                    development, backend development, data science, and security-aware thinking.
+                </p>
+                <div class="contact-meta">
+                    <span>BSc Computer Science</span>
+                    <span>ALX Data Science</span>
+                    <span>Backend Development</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Kigen. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
